@@ -1,0 +1,12 @@
+csvpath = os.path.join(script_path, '..', 'budget_data.csv')
+file = csvpath
+
+print("You are here: " + csvpath)
+
+#   Hardcoded file path: "C:\Users\Selin\OneDrive\문서\GitHub\python-challenge\PyBank\Resources\budget_data.csv"
+
+with open(file, 'r') as text:
+    print(text)
+    lines= text.read()
+    print(lines)
+print(file)
